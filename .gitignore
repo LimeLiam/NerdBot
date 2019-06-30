@@ -1,0 +1,12 @@
+#Files and directories to be ignored by git
+
+#Do not upload Node, the bot token, or package.json to git.
+
+#Node.JS has an excessive amount of files and is a dependency not created by me
+node_modules/
+
+#A bot token should never be given out, for privacy reasons
+assets/token.json
+
+#Package-lock mostly includes versions, and is unnecessary to upload
+package-lock.json
