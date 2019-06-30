@@ -1,7 +1,7 @@
 {
   "name": "nerdbot",
   "version": "Beta 1.0",
-  "description": "NerdBot is a fun-natured discord bot full of nerdy and preppy things! It has fun things like a random fun fact command, a blackjack command, and more! It is written in Discord.JS",
+  "description": "A nerdy, fun-loving discord bot that can also handle all your moderation needs!",
   "main": "nerdbot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
