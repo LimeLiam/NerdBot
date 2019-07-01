@@ -33,17 +33,13 @@ fs.readdir("./commands/", (err, files) => {
 
 bot.on("ready", async () => {
   console.log(`${bot.user.username} is online!`);
-  bot.user.setActivity("with Source Code | *help", {type: "PLAYING"})
+  bot.user.setActivity("with " + bot.users.filter(user => !user.bot).size +" friends! | *help", {type: "PLAYING"})
 });
 
 bot.on("guildMemberAdd", async member => {
   let welcomeChannel = member.guild.channels.find(`name`, "welcome");
   if(!welcomeChannel) return;
-  welcomeChannel.send(`Welcome ${member} to The Ultimate Nerd Space!`);
-  let welcomeMessage = `Welcome ${member}! I am the official bot for The Ultimate Nerd Space. This bot is still a Work In Progress, so ask a staff member to add your roles. Remember to say which programming languages you want, if you want to be labeled a helper, and if you want to be a tester (plan to use the server for testing), and if you consider yourself a techy and/or newbie. Thank you, and have a great day!`;
-  member.send(welcomeMessage).catch(O_o=>{ welcomeChannel.send(`${welcomeMessage} It seems you do not have your DMs enabled, so I have to send this here.`)});
-  let memberRole = member.guild.roles.find("name", "💪Member💪")
-  member.addRole(memberRole);
+  welcomeChannel.send(`Welcome ${member}!`);
 })
 
 bot.on("guildMemberRemove", async member => {
