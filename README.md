@@ -6,4 +6,4 @@ NerdBot has both unique fun and unique moderation commands, without the cookie-c
 ![Funfact Example](/assets/funfactexample.jpg)
 
 NerdBot is written in Discord.JS.
-NerdBot is protected under the GNU AFFERO GENERAL PUBLIC LICENSE 3.0, which can be read in the [LICENSE file] (https://github.com/Wolfalamew/NerdBot/blob/master/LICENSE)
+NerdBot is protected under the GNU AFFERO GENERAL PUBLIC LICENSE 3.0, which can be read in the [LICENSE file](https://github.com/Wolfalamew/NerdBot/blob/master/LICENSE)
