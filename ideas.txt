@@ -1,0 +1,18 @@
+*blackjack: plays blackjack with player
+*invite: gives invite links for the current server and for the bot
+  *secureinvite (admin only) (standard command will provide the sender, if staff, with a dm embed on how touse the command)
+                enable/disable
+                designate @<staff> (provides a designated staff member to handle memberships, without a designation it will default to using an online staff member, with the server owner at least priority)
+                -Makes it so that server invite links are made as temporary membership links, and when they are about to expire the bot notifies the user and a designated or currently online staff member
+*newgames: Presents to you a list of new and upcoming games, in the order of their release date
+*rolemsg #channel <role 1> :reaction: <role2> :reaction: <role3> :reaction: : creates a message in the designated channel that allows users to react and recieve roles based on their reactions
+*welcome (admin only): dms admin (sender) welcoming commands
+         enable #channel: enables welcoming for a channel
+         disable
+         leavemsgs enable #channel
+                   disable
+*prefix (prefix): changes prefix for server if user is admin, otherwise returns "The NerdBot prefix for this server is _ (Technical name of _)"
+
+When an admin does *help or when the bot is added (in which case all admins recieve a full help dm with a "Thanks for adding me!" message) dm them a moderator help embed
+
+YouTube, Twitch, Mixer, Facebook, Twitter, Instagram, etc. upload/stream system based on web dashboard
