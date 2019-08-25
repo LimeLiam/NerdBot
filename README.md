@@ -1,5 +1,5 @@
 # NerdBot
-A nerdy, fun-loving discord bot that can also handle all your moderation needs!
+NerdBot is a nerdy, fun-loving discord bot that can also handle all your moderation needs!
 
 NerdBot has both unique fun and unique moderation commands, without the cookie-cutter bot experience. With NerdBot, your community can be extra fun and extra safe without extra work!
 
