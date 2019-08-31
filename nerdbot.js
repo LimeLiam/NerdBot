@@ -9,7 +9,7 @@ YOU CAN NOT SUB LICENSE ANY VERSION OF THESE FILES OR THIS PROGRAM, AND THE CREA
 
 const Discord = require("discord.js");
 const Config = require("./config.json");
-const Token = require("./assets/token.json"); //This includes just the token, for security reasons it is not in the main file.
+const Token = require("./assets/token.json"); //This includes just the token, for security reasons it is not in the main file, and is ignored by git.
 const fs = require("fs");
 
 const bot = new Discord.Client({disableEveryone: true});

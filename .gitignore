@@ -2,11 +2,16 @@
 
 #Do not upload Node, the bot token, or package.json to git.
 
-#A bot token should never be given out, for privacy reasons
+#A bot token should never be given out, for several reasons
+#Note for reference: This file only contains a JSON definition of "token".
 assets/token.json
 
 #Package-lock mostly includes versions, and is unnecessary to upload
 package-lock.json
+
+#Do not include unprofessional files (ie. files with poorly presented information)
+assets/funfacts.txt
+assets/NerdBotInfo.txt
 
 # Logs
 logs

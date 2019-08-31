@@ -10,7 +10,8 @@ YOU CAN NOT SUB LICENSE ANY VERSION OF THESE FILES OR THIS PROGRAM, AND THE CREA
 const Discord = require("discord.js");
 
 module.exports.run = async(bot, message, args) => {
-  message.channel.send(new Date().getTime() - message.createdTimestamp + " ms");
+  const ping = message.createdTimestamp - new Date().getTime()
+  message.channel.send(`Pong! Latency: ${ping} milliseconds! :ping_pong:`);
 }
 
 module.exports.help = {

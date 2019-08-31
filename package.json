@@ -9,6 +9,7 @@
   "author": "Wolfalamew",
   "license": "GNU AFFERO GENERAL PUBLIC LICENSE Version 3",
   "dependencies": {
-    "discord.js": "^11.4.2"
+    "discord.js": "^11.4.2",
+    "git": "^0.1.5"
   }
 }
