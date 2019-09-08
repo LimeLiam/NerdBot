@@ -37,10 +37,10 @@ module.exports.run = async(bot, message, args) => {
   .addField("Uptime:", `${hours} hours, ${minutes} minutes, and ${seconds} seconds!`)
   .addField("Author:", "@Wolfalamew#7784", true)
   .addField("Bot Version:", Package.version, true)
+  .addBlankField()
   .addField("Discord.JS Version:", discordJSVersion, true)
   .addField("Node.JS API Version:", nodeVersion, true)
-  .addBlankField()
-  .addField("Copyleft License:", "This bot is protected by the GNU AGPL 3.0");
+  .setFooter("Copyleft License: This bot is protected by the GNU AGPL 3.0");
   return message.reply(statEmbed);
 }
 

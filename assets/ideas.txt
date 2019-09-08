@@ -1,4 +1,4 @@
-Server Specific Config (prefix, roles, logs, etc): Enmap https://gist.github.com/eslachance/5c539ccebde9fa76340fb5d54889aa22
+Server Specific Config (prefix, roles, logs, etc): Enmap
 *blackjack: plays blackjack with player
 *invite: gives invite links for the current server and for the bot
   *secureinvite (admin only) (standard command will provide the sender, if staff, with a dm embed on how to use the command)
